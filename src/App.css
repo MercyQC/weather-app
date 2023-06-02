@@ -1,22 +1,27 @@
 .container {
   width: 100%;
   font-family: sans-serif;
-  padding: 0 600px;
+  padding: 0 px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   gap: 40px;
+  max-width: 3000px; 
 
 }
-.container-header {
-  margin: 50px;
+.container-header { 
+  margin: 0;
+
 }
 .container-main {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+  margin: 0 ;
+  padding: 0;
+  
 }
 
 .card {
@@ -27,13 +32,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden;
-  
+  overflow: hidden;  
 }
 .card-header{
   width: 100%;
   position: relative;
   text-align: right;
+  
 }
 .card-header-icon{
   position: absolute;

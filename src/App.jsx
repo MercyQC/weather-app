@@ -68,7 +68,9 @@ const WeatherApp = () => {
   };
 
   return (
+    
     <div className="container">
+      <h1 className='title' style={{ color: 'black' }}>Weather App</h1>
       <header className="container-header">
         <input
           className="input"
